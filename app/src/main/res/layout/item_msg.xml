@@ -10,10 +10,10 @@
         android:layout_height="wrap_content"
         app:cardCornerRadius="8dp"
         app:cardElevation="4dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp">
+        android:layout_marginLeft="@dimen/margin_item_msg_l_r"
+        android:layout_marginRight="@dimen/margin_item_msg_l_r"
+        android:layout_marginTop="@dimen/margin_item_msg_t_b"
+        android:layout_marginBottom="@dimen/margin_item_msg_t_b">
 
     <LinearLayout
         android:layout_width="match_parent"
