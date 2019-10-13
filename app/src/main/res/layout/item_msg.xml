@@ -10,6 +10,8 @@
         android:layout_height="wrap_content"
         app:cardCornerRadius="8dp"
         app:cardElevation="4dp"
+        app:cardPreventCornerOverlap="true"
+        android:foreground="?attr/selectableItemBackground"
         android:layout_marginLeft="@dimen/margin_item_msg_l_r"
         android:layout_marginRight="@dimen/margin_item_msg_l_r"
         android:layout_marginTop="@dimen/margin_item_msg_t_b"
